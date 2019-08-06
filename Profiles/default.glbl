@@ -10,7 +10,7 @@
       <name>start_url</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
+      <description>Investigator</description>
       <initValue>'xxx'</initValue>
       <name>account01</name>
    </GlobalVariableEntity>
@@ -18,5 +18,20 @@
       <description></description>
       <initValue>'xxx'</initValue>
       <name>password01</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'some_tech_admin'</initValue>
+      <name>tech_admin</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'tech_admin_password'</initValue>
+      <name>tech_admin_password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Account to test locking after 3 failed attempts</description>
+      <initValue>'lock_account'</initValue>
+      <name>lock_account</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

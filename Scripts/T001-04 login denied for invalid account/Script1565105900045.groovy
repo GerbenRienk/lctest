@@ -17,13 +17,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.start_url)
 
-WebUI.setText(findTestObject('Object Repository/Page_OpenClinica/input_User Name_j_username'), GlobalVariable.account01)
+WebUI.setText(findTestObject('Object Repository/Page_OpenClinica/input_User Name_j_username'), 'no_valid_user')
 
-WebUI.setText(findTestObject('Object Repository/Page_OpenClinica/input_Password_j_password'), GlobalVariable.password01)
+WebUI.setText(findTestObject('Object Repository/Page_OpenClinica/input_Password_j_password'), 'no_valid_password')
 
 WebUI.click(findTestObject('Object Repository/Page_OpenClinica/input_Password_submit'))
 
-WebUI.click(findTestObject('Object Repository/Page_OpenClinica/a_Log Out'))
+WebUI.click(findTestObject('Object Repository/Page_OpenClinica/div_Your User Name and Password combination could not be found Please try again If you continue to have trouble please click Forgot Password or contact the Administrator'))
 
 WebUI.closeBrowser()
 

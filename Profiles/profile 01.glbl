@@ -6,12 +6,22 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'your_own_user'</initValue>
+      <initValue>'inv_01'</initValue>
       <name>account01</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'password_of_your_user'</initValue>
+      <initValue>'Ged12gra'</initValue>
       <name>password01</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'grvisser'</initValue>
+      <name>tech_admin</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Ged12gra'</initValue>
+      <name>tech_admin_password</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

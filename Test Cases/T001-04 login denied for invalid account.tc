@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>invalid username, invalid password</description>
+   <name>T001-04 login denied for invalid account</name>
+   <tag>authentication</tag>
+   <comment></comment>
+   <testCaseGuid>e8a49170-b4d3-46ed-bb26-2da16c090d4e</testCaseGuid>
+</TestCaseEntity>

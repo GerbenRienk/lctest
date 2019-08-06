@@ -15,9 +15,9 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://tds-edc.com/lcw020/pages/login/login')
+WebUI.navigateToUrl(GlobalVariable.start_url)
 
-WebUI.setText(findTestObject('Object Repository/Page_OpenClinica/input_User Name_j_username'), 'grvisser')
+WebUI.setText(findTestObject('Object Repository/Page_OpenClinica/input_User Name_j_username'), GlobalVariable.account01)
 
 WebUI.setText(findTestObject('Object Repository/Page_OpenClinica/input_Password_j_password'), 'no_valid_password')
 

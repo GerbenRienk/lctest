@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>valid account, valid password</description>
    <name>T001-01 login accepted for valid account</name>
-   <tag></tag>
+   <tag>authentication</tag>
    <comment></comment>
    <testCaseGuid>7c4b3b08-dea8-4fb0-b5c8-38dbcc47fb4e</testCaseGuid>
 </TestCaseEntity>

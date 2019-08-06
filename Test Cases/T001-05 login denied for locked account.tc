@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>setting lockout to 3 and after 3 attempts login with valid name and password</description>
+   <name>T001-05 login denied for locked account</name>
+   <tag>authentication</tag>
+   <comment></comment>
+   <testCaseGuid>ac045f00-d1b0-4318-9638-927288d79eaa</testCaseGuid>
+</TestCaseEntity>
