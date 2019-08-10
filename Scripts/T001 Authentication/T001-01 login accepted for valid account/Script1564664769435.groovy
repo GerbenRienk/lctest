@@ -3,6 +3,7 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.configuration.RunConfiguration
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
@@ -23,7 +24,7 @@ WebUI.setText(findTestObject('Object Repository/Page_OpenClinica/input_Password_
 
 WebUI.click(findTestObject('Object Repository/Page_OpenClinica/input_Password_submit'))
 
-WebUI.takeScreenshot('T001-01_success.png')
+WebUI.takeScreenshot(RunConfiguration.getReportFolder() + '/T001_01_success.png')
 
 WebUI.click(findTestObject('Object Repository/Page_OpenClinica/a_Log Out'))
 
