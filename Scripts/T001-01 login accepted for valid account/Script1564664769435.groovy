@@ -23,7 +23,7 @@ WebUI.setText(findTestObject('Object Repository/Page_OpenClinica/input_Password_
 
 WebUI.click(findTestObject('Object Repository/Page_OpenClinica/input_Password_submit'))
 
-WebUI.takeScreenshot('D:\\screenshot.png')
+WebUI.takeScreenshot('T001-01_success.png')
 
 WebUI.click(findTestObject('Object Repository/Page_OpenClinica/a_Log Out'))
 
