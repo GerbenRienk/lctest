@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Page 1 of 1_button_search</name>
+   <name>img_v1_bt_EnterData1</name>
    <tag></tag>
-   <elementGuidId>9b842de4-436e-41ff-8af1-ea4edc1c217d</elementGuidId>
+   <elementGuidId>9803284c-6d98-42b5-bcd3-2de52f422160</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@value='Find']</value>
+         <value>//img[@name='bt_EnterData1']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,111 +17,132 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
+      <value>img</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>name</name>
       <type>Main</type>
-      <value>submit</value>
+      <value>bt_EnterData1</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>images/bt_EnterData.gif</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>border</name>
       <type>Main</type>
-      <value>button_search</value>
+      <value>0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Continue Entering Data</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Continue Entering Data</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>value</name>
+      <name>align</name>
       <type>Main</type>
-      <value>Find</value>
+      <value>left</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>onclick</name>
+      <name>hspace</name>
       <type>Main</type>
-      <value>if (document.forms[0].ebl_filterKeyword.value == '') return false;</value>
+      <value>6</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;subjectEvents&quot;)/table[1]/tbody[1]/tr[1]/td[1]/div[@class=&quot;box_T&quot;]/div[@class=&quot;box_L&quot;]/div[@class=&quot;box_R&quot;]/div[@class=&quot;box_B&quot;]/div[@class=&quot;box_TL&quot;]/div[@class=&quot;box_TR&quot;]/div[@class=&quot;box_BL&quot;]/div[@class=&quot;box_BR&quot;]/div[@class=&quot;tablebox_center&quot;]/table[1]/tbody[1]/tr[1]/td[@class=&quot;table_actions&quot;]/table[1]/tbody[1]/tr[1]/td[2]/input[@class=&quot;button_search&quot;]</value>
+      <value>id(&quot;subjectEvents&quot;)/table[1]/tbody[1]/tr[1]/td[1]/div[@class=&quot;box_T&quot;]/div[@class=&quot;box_L&quot;]/div[@class=&quot;box_R&quot;]/div[@class=&quot;box_B&quot;]/div[@class=&quot;box_TL&quot;]/div[@class=&quot;box_TR&quot;]/div[@class=&quot;box_BL&quot;]/div[@class=&quot;box_BR&quot;]/div[@class=&quot;tablebox_center&quot;]/table[1]/tbody[1]/tr[2]/td[1]/table[1]/tbody[1]/tr[2]/td[@class=&quot;table_cell&quot;]/table[1]/tbody[1]/tr[1]/td[@class=&quot;table_cell&quot;]/table[1]/tbody[1]/tr[1]/td[1]/a[1]/img[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@value='Find']</value>
+      <value>//img[@name='bt_EnterData1']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='subjectEvents']/table/tbody/tr/td/div/div/div/div/div/div/div/div/div/table/tbody/tr/td[2]/table/tbody/tr/td[2]/input</value>
+      <value>//div[@id='subjectEvents']/table/tbody/tr/td/div/div/div/div/div/div/div/div/div/table/tbody/tr[2]/td/table/tbody/tr[2]/td[6]/table/tbody/tr/td[5]/table/tbody/tr/td/a/img</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Page 1 of 1'])[1]/following::input[9]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='v.1'])[1]/following::img[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Schedule New Event'])[1]/preceding::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='T014: DDE'])[1]/following::img[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Event (Occurrence Number)'])[1]/preceding::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='T014_Q_B1_201909132049'])[1]/preceding::img[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='Continue Entering Data']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//td[2]/table/tbody/tr/td[2]/input</value>
+      <value>//td[6]/table/tbody/tr/td[5]/table/tbody/tr/td/a/img</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Page 1 of 1'])[1]/following::input[8]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='T014_Q_B1_201909131943'])[1]/preceding::img[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Configure Password Requirements'])[1]/following::input[8]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Subject Group Class'])[1]/preceding::img[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:img</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create New User'])[2]/preceding::input[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='User Name'])[1]/preceding::input[1]</value>
+      <value>//img[@alt='Begin Double Data Entry']</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Password_submit</name>
+   <name>img_v1_bt_EnterData1_1</name>
    <tag></tag>
-   <elementGuidId>5eff3359-9ac3-4fbd-a290-56c933cdef2f</elementGuidId>
+   <elementGuidId>6bbd19bc-6008-49a8-81a6-793e9eb60a8d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='submit']</value>
+         <value>(//img[@name='bt_EnterData1'])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,90 +17,111 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>submit</value>
+      <value>img</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>submit</value>
+      <value>bt_EnterData1</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>images/bt_EnterData.gif</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>value</name>
+      <name>border</name>
       <type>Main</type>
-      <value>Login</value>
+      <value>0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Begin Double Data Entry</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Begin Double Data Entry</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>align</name>
       <type>Main</type>
-      <value>loginbutton</value>
+      <value>left</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>hspace</name>
+      <type>Main</type>
+      <value>6</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;login&quot;)/form[1]/input[@class=&quot;loginbutton&quot;]</value>
+      <value>id(&quot;subjectEvents&quot;)/table[1]/tbody[1]/tr[1]/td[1]/div[@class=&quot;box_T&quot;]/div[@class=&quot;box_L&quot;]/div[@class=&quot;box_R&quot;]/div[@class=&quot;box_B&quot;]/div[@class=&quot;box_TL&quot;]/div[@class=&quot;box_TR&quot;]/div[@class=&quot;box_BL&quot;]/div[@class=&quot;box_BR&quot;]/div[@class=&quot;tablebox_center&quot;]/table[1]/tbody[1]/tr[2]/td[1]/table[1]/tbody[1]/tr[3]/td[@class=&quot;table_cell&quot;]/table[1]/tbody[1]/tr[1]/td[@class=&quot;table_cell&quot;]/table[1]/tbody[1]/tr[1]/td[1]/a[1]/img[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='submit']</value>
+      <value>(//img[@name='bt_EnterData1'])[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='login']/form/input</value>
+      <value>//div[@id='subjectEvents']/table/tbody/tr/td/div/div/div/div/div/div/div/div/div/table/tbody/tr[2]/td/table/tbody/tr[3]/td[6]/table/tbody/tr/td[5]/table/tbody/tr/td/a/img</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::input[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='v.1'])[2]/following::img[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='User Name'])[1]/following::input[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='T014: DDE'])[2]/following::img[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='News'])[1]/preceding::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='T014_Q_B2_201909132049'])[1]/preceding::img[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:img</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='More...'])[1]/preceding::input[1]</value>
+      <value>//img[@alt='Begin Double Data Entry']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//form/input</value>
+      <value>//tr[3]/td[6]/table/tbody/tr/td[5]/table/tbody/tr/td/a/img</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -15,9 +15,19 @@
       <name>account01</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
+      <description>password for account01</description>
       <initValue>'xxx'</initValue>
       <name>password01</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Investigator; used for DDE in T014</description>
+      <initValue>'xxx'</initValue>
+      <name>account02</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'xxx'</initValue>
+      <name>password02</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>

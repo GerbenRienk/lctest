@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Page 1 of 1_button_search</name>
+   <name>input_Support_findSubjects_f_studySubjectlabel</name>
    <tag></tag>
-   <elementGuidId>9b842de4-436e-41ff-8af1-ea4edc1c217d</elementGuidId>
+   <elementGuidId>1796e963-c86d-4485-8185-1c4313efe093</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@value='Find']</value>
+         <value>//input[@name='findSubjects_f_studySubject.label']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -24,104 +24,97 @@
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>submit</value>
+      <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>findSubjects_f_studySubject.label</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>onblur</name>
       <type>Main</type>
-      <value>button_search</value>
+      <value>if (this.value == '') this.value = 'Study Subject ID'</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onfocus</name>
+      <type>Main</type>
+      <value>if (this.value == 'Study Subject ID') this.value = ''</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>Find</value>
+      <value>Study Subject ID</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>onclick</name>
+      <name>class</name>
       <type>Main</type>
-      <value>if (document.forms[0].ebl_filterKeyword.value == '') return false;</value>
+      <value>navSearch</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;subjectEvents&quot;)/table[1]/tbody[1]/tr[1]/td[1]/div[@class=&quot;box_T&quot;]/div[@class=&quot;box_L&quot;]/div[@class=&quot;box_R&quot;]/div[@class=&quot;box_B&quot;]/div[@class=&quot;box_TL&quot;]/div[@class=&quot;box_TR&quot;]/div[@class=&quot;box_BL&quot;]/div[@class=&quot;box_BR&quot;]/div[@class=&quot;tablebox_center&quot;]/table[1]/tbody[1]/tr[1]/td[@class=&quot;table_actions&quot;]/table[1]/tbody[1]/tr[1]/td[2]/input[@class=&quot;button_search&quot;]</value>
+      <value>id(&quot;bt_Home&quot;)/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/form[1]/input[@class=&quot;navSearch&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@value='Find']</value>
+      <value>//input[@name='findSubjects_f_studySubject.label']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='subjectEvents']/table/tbody/tr/td/div/div/div/div/div/div/div/div/div/table/tbody/tr/td[2]/table/tbody/tr/td[2]/input</value>
+      <value>//div[@id='bt_Home']/div/div/div/table/tbody/tr/td[2]/form/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Page 1 of 1'])[1]/following::input[9]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Support'])[1]/following::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Schedule New Event'])[1]/preceding::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Notes &amp; Discrepancies'])[1]/following::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Event (Occurrence Number)'])[1]/preceding::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Submit Data'])[1]/preceding::input[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Subject Matrix'])[2]/preceding::input[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//td[2]/table/tbody/tr/td[2]/input</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Page 1 of 1'])[1]/following::input[8]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Configure Password Requirements'])[1]/following::input[8]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create New User'])[2]/preceding::input[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='User Name'])[1]/preceding::input[1]</value>
+      <value>//input</value>
    </webElementXpaths>
 </WebElementEntity>
