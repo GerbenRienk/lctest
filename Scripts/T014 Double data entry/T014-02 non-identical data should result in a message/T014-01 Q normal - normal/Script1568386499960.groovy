@@ -72,7 +72,7 @@ WebUI.click(findTestObject('Page_OpenClinica/input_Support_navSearchButton'))
 
 WebUI.click(findTestObject('Page_OpenClinica/a_Schedule New Event'))
 WebUI.selectOptionByValue(findTestObject('Page_OpenClinica/select_-Select-EV_A (Non-repeating)EV_B (Repeating)EV_C (Non-repeating)EV_D (Repeating)'), 
-    EV_D_ID, true)
+    EV_B_ID, true)
 WebUI.setText(findTestObject('Page_OpenClinica/input_Location_location'), Subject_Q_Ev_B1)
 WebUI.click(findTestObject('Page_OpenClinica/input_Leave this field blank if the end datetime is not applicable_Submit'))
 WebUI.click(findTestObject('Page_OpenClinica/img_v1_bt_EnterData0'))
@@ -92,7 +92,7 @@ WebUI.click(findTestObject('Page_OpenClinica/input_Support_navSearchButton'))
 
 WebUI.click(findTestObject('Page_OpenClinica/a_Schedule New Event'))
 WebUI.selectOptionByValue(findTestObject('Page_OpenClinica/select_-Select-EV_A (Non-repeating)EV_B (Repeating)EV_C (Non-repeating)EV_D (Repeating)'), 
-    EV_D_ID, true)
+    EV_B_ID, true)
 WebUI.setText(findTestObject('Page_OpenClinica/input_Location_location'), Subject_Q_Ev_B2)
 WebUI.click(findTestObject('Page_OpenClinica/input_Leave this field blank if the end datetime is not applicable_Submit'))
 WebUI.click(findTestObject('Page_OpenClinica/img_v1_bt_EnterData0'))
